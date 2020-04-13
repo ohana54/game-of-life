@@ -1,0 +1,22 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "bsb -w",
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w -ws _ ",
+    "server": "moduleserve ./ --port 8000"
+  },
+  "devDependencies": {
+    "bs-platform": "^7.2.2",
+    "moduleserve": "^0.9.0"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": "^0.7.0"
+  }
+}
