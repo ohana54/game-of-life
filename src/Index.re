@@ -9,8 +9,4 @@ style##innerHTML #= Styles.style;
 let container = document##createElement("div");
 document##body##appendChild(container);
 
-ReactDOMRe.render(
-  <Board />,
-  container,
-);
-
+ReactDOMRe.render(<Board />, container);
